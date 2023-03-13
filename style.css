@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: white;
+}
+#title{
+    text-align: center;
+}
+
+.menu{
+    width: 100%;
+    background-color: aqua;
+    height: 80px;
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+
+}
