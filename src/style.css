@@ -1,8 +1,74 @@
-:root{
+:root {
     --background-color: white;
     --darker-background-color: #000000;
     --accent-color: #41DCE1;
-    --text-color:black;
-    --brighter-text-color:white;
-    --navbar-height:80px;
+    --text-color: black;
+    --brighter-text-color: white;
+    --navbar-height: 80px;
 }
+
+body {
+    background-color: black;
+    color: white;
+}
+
+#title {
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 11px;
+}
+
+#subtitles {
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+/* barra di scorimento */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 7px;
+}
+
+/* /barra di scorimento */
+
+/* menu a comparsa */
+#nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+#nav a {
+    text-decoration: none;
+    color: red;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+#nav ul {
+    list-style: none;
+    margin-left: 20px;
+    padding: 0;
+}
+
+#nav details {
+    border: 1px solid #ccc;
+    background-color: #3b3b3b;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+#nav summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* /menu a comparsa */
