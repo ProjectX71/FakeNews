@@ -59,6 +59,10 @@ h3 {
 p {
     line-height: 1.5;
 }
+li{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
 #img {
     text-align: center;
@@ -129,7 +133,7 @@ nav a {
 nav a:hover {
     color: black;
     text-decoration: none;
-    font-size: 150%;
+    font-size: 140%;
     transition: 0.5s;
 }
 
