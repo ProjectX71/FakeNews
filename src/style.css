@@ -1,13 +1,3 @@
-:root {
-    --background-color: white;
-    --darkground-color:#007bff;
-    --darker-background-color: #000000;
-    --accent-color: #41DCE1;
-    --text-color: black;
-    --brighter-text-color: white;
-    --navbar-height: 80px;
-}
-
 body {
     background-color: black;
     color: white;
@@ -18,10 +8,13 @@ body {
 }
 
 header {
-    background-color: var(--darkground-color);
-    color: var(--brighter-text-color);
-    padding: 20px;
-    text-align: center;
+    background-color: #007bff;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
 }
 
 footer {
@@ -33,7 +26,10 @@ footer {
 #title {
     font-size: 36px;
     text-transform: uppercase;
-    letter-spacing: 11px;
+    letter-spacing: 8px;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 24px;
 }
 
 /* corpo */
@@ -46,7 +42,7 @@ footer {
 }
 
 
-.content h2{
+.content h2 {
     text-align: center;
     font-size: 30px;
     border-bottom: 1.5px solid #595b5b;
@@ -56,8 +52,40 @@ footer {
     text-transform: uppercase;
 }
 
+h3 {
+    text-align: center;
+}
+
 p {
     line-height: 1.5;
+}
+
+#img {
+    text-align: center;
+}
+
+img {
+    margin-top: 6%;
+    margin-bottom: 6%;
+    width: 700px;
+    height: auto;
+}
+
+#link {
+    text-align: center;
+}
+
+#link a {
+    padding: 3%;
+    text-decoration: none;
+    cursor: pointer;
+    color: #007bff;
+    transition: 0.5s;
+    letter-spacing: 4px;
+}
+
+#link a:hover {
+    font-size: 150%;
 }
 
 /* /corpo */
@@ -76,37 +104,33 @@ p {
 /* /barra di scorimento */
 
 /* menu a comparsa */
-nav {
+nav ul {
+    height: 100%;
     display: flex;
-    justify-content: space-between;
-    position: fixed;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+nav li {
+    height: 100%;
+    width: 150px;
+    text-align: center;
+    position: relative;
 }
 
 nav a {
+    color: #fff;
     text-decoration: none;
-    color: red;
-    font-size: 23px;
-    text-transform: uppercase;
+    font-size: 18px;
 }
 
-nav ul {
-    list-style: none;
-    margin-left: 20px;
-    padding: 0;
-}
-
-nav details {
-    border: 1px solid #ccc;
-    background-color: #3b3b3b;
-    border-radius: 4px;
-    padding: 8px;
-    margin-bottom: 16px;
-}
-
-nav summary {
-    font-size: 30px;
-    cursor: pointer;
-    font-weight: bold;
+nav a:hover {
+    color: black;
+    text-decoration: none;
+    font-size: 150%;
+    transition: 0.5s;
 }
 
 /* /menu a comparsa */
