@@ -75,6 +75,17 @@ img {
     height: auto;
 }
 
+#leftside{
+    width: 200px;
+    margin-top: auto;
+}
+
+#rightside{
+    width: 200px;
+    float: right;
+    margin-top: auto;
+}
+
 #link {
     text-align: center;
 }
