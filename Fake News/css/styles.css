@@ -10845,3 +10845,12 @@ html {
   background-repeat: no-repeat;
   min-height: 15rem;
 }
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 7px;
+}
